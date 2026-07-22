@@ -31,3 +31,6 @@ app.get("/api/health", (req, res) => {
 });
 
 module.exports = app;
+const routes=require("./routes");
+app.use("/api",routes);
+const routes=require("./routes");
